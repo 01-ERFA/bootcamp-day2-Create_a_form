@@ -1,0 +1,84 @@
+
+#mybox {
+    margin:auto;
+}
+#mytitle {
+    font-size: 150%;
+}
+
+.myfloat_left {
+    float: left;
+}
+
+#myalert {
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.mybutton {
+    display: flex;
+    justify-content: end;
+}
+
+.mybutton * {
+    margin-right: 0.5%;
+}
+
+.myicon {
+    max-width: 5%;
+    max-height: 5%;
+    display: flex;
+}
+
+
+.mylabelleft {
+    position: relative;
+    float: left;
+}
+
+.myleft_left {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.myoptions {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Mastercard icon */
+
+.mastercard-icon {
+    display: inline-block;
+    height: 1em;
+    isolation: isolate;
+    position: relative;
+    line-height: 1em;
+    vertical-align: middle;
+    width: 1.611em;
+  }
+  
+  .mastercard-icon::before,
+  .mastercard-icon::after {
+    border-radius: .5em;
+    content: "";
+    display: inline-block;
+    height: 1em;
+    position: absolute;
+    width: 1em;
+  }
+  
+  .mastercard-icon::before {
+    background-color: #eb001b;
+    left: 0;
+    top: 0;
+  }
+  
+  .mastercard-icon::after {
+    background-color: #f79e1b;
+    mix-blend-mode: hard-light;
+    right: 0;
+    top: 0;
+  }
